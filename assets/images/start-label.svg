@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="444px" height="41px" viewBox="0 0 444 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>start-label</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="board-color" transform="translate(-215.000000, -186.000000)">
+            <g id="start-label" transform="translate(215.000000, 173.000000)">
+                <text id="Click-to-start" font-family="CooperBlackMS, Cooper Black" font-size="58" font-weight="700" fill="#FFFFFF">
+                    <tspan x="52.1552734" y="53">Click to start</tspan>
+                </text>
+                <path d="M0,33.5 L39,14 C39,14 30.9902344,23.75 30.9902344,33.5 C30.9902344,43.25 39,53 39,53 L0,33.5 Z" id="Triangle-2" fill="#65C481"></path>
+            </g>
+        </g>
+    </g>
+</svg>

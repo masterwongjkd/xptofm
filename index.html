@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Femdomopoly | Femdom Board Game by The Femdomist</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=Edge,chrome=1"/>
+<meta name="google-site-verification" content="qM4MOaeSeaDQOfJimE9_dliJh4-lHTD5lT9f7q4MinM" />
+<meta name="robots" content="noindex">
+
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" rel="stylesheet">
+
+</head>
+
+<body class="pg-board">
+
+<!-- zoomed squares -->
+<div class="overlay"></div>
+<div class="square zoom hide"></div>
+
+<main>
+
+  <!-- board -->
+  <div class="board">
+
+    <div class="player hide"></div>
+
+    <ul class="squares">
+
+      <!-- bottom     -->
+      <li id="s1" class="square bottom corner go" data-tasktype="go">
+        <span>Collect 2 face slaps as you pass</span>
+        <img src="assets/icons/ico-go.svg" alt="Go" />
+      </li>
+
+      <li id="s2" class="square bottom user"></li>
+
+      <li id="s3" class="square bottom chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Question Mark" />
+      </li>
+
+      <li id="s4" class="square bottom user"></li>
+
+      <li id="s5" class="square bottom user"></li>
+
+      <li id="s6" class="square bottom reward" data-tasktype="reward">
+        <h2>Domme Reward</h2>
+        <img src="assets/icons/ico-mouth.svg" alt="Penis" />
+        <span>Cunnilingus</span>
+      </li>
+
+      <li id="s7" class="square bottom user"></li>
+
+      <li id="s8" class="square bottom chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Question Mark" />
+      </li>
+
+      <li id="s9" class="square bottom user"></li>
+
+      <li id="s10" class="square bottom user"></li>
+
+      <li id="s11" class="square bottom corner" data-tasktype="corner">
+        <h2>Jail</h2>
+        <img src="assets/icons/ico-jail.svg" alt="Jail" />
+        <span><small>10 mins</small></span>
+      </li>
+
+
+      <!-- left -->
+      <li id="s12" class="square left user"></li>
+
+      <li id="s13" class="square left user"></li>
+
+      <li id="s14" class="square left user"></li>
+
+      <li id="s15" class="square left user"></li>
+
+      <li id="s16" class="square left reward" data-tasktype="reward">
+        <h2>Slave Reward</h2>
+        <img src="assets/icons/ico-penis.svg" alt="Penis" />
+        <span>Edging</span>
+      </li>
+
+      <li id="s17" class="square left user"></li>
+
+      <li id="s18" class="square left chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Question Mark" />
+      </li>
+
+      <li id="s19" class="square left user"></li>
+
+      <li id="s20" class="square left user"></li>
+
+      <!-- top -->
+      <li id="s21" class="square top corner release-zone" data-tasktype="release-zone">
+        <h2>Slave Release Zone</h2>
+        <img src="assets/icons/ico-handcuffs.svg" alt="Handcuffs" />
+      </li>
+
+      <li id="s22" class="square top user"></li>
+
+      <li id="s23" class="square top chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Question Mark" />
+      </li>
+
+      <li id="s24" class="square top user"></li>
+
+      <li id="s25" class="square top user"></li>
+
+      <li id="s26" class="square top reward" data-tasktype="reward">
+        <h2>Domme Reward</h2>
+        <img src="assets/icons/ico-mouth.svg" alt="Penis" />
+        <span>Cunnilingus</span>
+      </li>
+
+      <li id="s27" class="square top user"></li>
+
+      <li id="s28" class="square top user"></li>
+
+      <li id="s29" class="square top chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Question Mark" />
+      </li>
+
+      <li id="s30" class="square top user"></li>
+
+      <li id="s31" class="square top corner go-to-jail" data-tasktype="corner go-to-jail">
+        <img src="assets/icons/ico-go-to-jail.svg" alt="Finger pointing to jail" />
+        <h2>Go To Jail</h2>
+      </li>
+
+
+      <!-- right -->
+      <li id="s32" class="square right user"></li>
+
+      <li id="s33" class="square right user"></li>
+
+      <li id="s34" class="square right chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Chance" />
+      </li>
+
+      <li id="s35" class="square right user"></li>
+
+      <li id="s36" class="square right reward" data-tasktype="reward">
+        <h2>Slave Reward</h2>
+        <img src="assets/icons/ico-penis.svg" alt="penis" />
+        <span>Edging</span>
+      </li>
+
+      <li id="s37" class="square right chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Chance" />
+      </li>
+
+      <li id="s38" class="square right user"></li>
+
+      <li id="s39" class="square right chance" data-tasktype="chance">
+        <h2>Chance</h2>
+        <img src="assets/icons/ico-chance.svg" alt="Chance" />
+      </li>
+
+      <li id="s40" class="square right user"></li>
+
+    </ul>
+
+    <section class="center">
+
+      <!-- dice -->
+      <div class="dice-wrapper">
+
+        <ul class="dice">
+          <li></li><li></li><li></li><li></li><li></li><li></li>
+        </ul>
+
+        <span class="label">Click to start</span>
+
+      </div>
+
+      <!-- chance stack -->
+      <div class="card-stack">
+        <figure class="stack1"></figure>
+        <figure class="stack2"></figure>
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- chance card -->
+  <section class="card-wrapper hide">
+    <button class="btn-close-modal hide"></button>
+    <div class="card">
+      <figure class="front"></figure>
+      <figure class="back">
+        <h2></h2>
+        <span class="task">Info</span>
+        <span class="amount"></span>
+      </figure>
+    </div>
+  </section>
+
+  <!-- settings -->
+  <section class="settings open">
+
+    <button class="btn-toggle-settings"></button>
+
+    <h2>Choose Your Kinks</h2>
+
+    <div class="checkbox">
+    <input type="checkbox" value="0" checked />
+    <label>Humiliation</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="1" checked />
+    <label>Service</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="2" checked />
+    <label>Bondage</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="3" />
+    <label>Toilet Play</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="4" checked />
+    <label>Feet</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="5" checked />
+    <label>Orgasm Control</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="6" />
+    <label>Pet Play</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="7" checked />
+    <label>Pain (mild)</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="8" checked />
+    <label>Pain (hard)</label>
+    </div>
+
+    <div class="checkbox">
+    <input type="checkbox" value="9" checked />
+    <label>Anal</label>
+    </div>
+
+  </section>
+
+
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/js/game.min.js"></script>
+
+</body>
+</html>

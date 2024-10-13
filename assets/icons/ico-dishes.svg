@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="172px" viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-dishes</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="50%" x2="78.9153343%" y2="88.1586119%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EFEFEF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-dishes">
+            <g id="Group">
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="86" cy="86" r="86"></circle>
+                <circle id="Oval-2" stroke="#F1F1F1" fill="#FBFBFB" cx="86" cy="86" r="58"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
